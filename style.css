@@ -1,57 +1,23 @@
-body {
+body{
   margin: 0;
-  padding: 0;
+  min-height: 100vh;
+  background-image: url(IMAGES/bac.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  
 
-  /* Background color */
-  background-color: #d8dad8; /* badilisha kama unavyopenda */
-
-  /* Center content horizontally, start from top */
-  display: flex;
-  justify-content: center; /* horizontal center */
-  align-items: flex-start; /* start from top */
-  min-height: 100vh;       /* full height of viewport */
-  font-family: Arial, sans-serif;
-  padding-top: 50px;       /* optional: space juu */
 }
-
-/* Container ya tree */
-.tree-container {
-  text-align: center;
-}
-
-/* Individual person */
-.person {
-  display: inline-block;
-  margin: 20px;
-  cursor: pointer;
-  text-align: center;
-}
-
-.person img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;  /* circle images */
-  object-fit: cover;
-  border: 3px solid #333; /* optional border */
-}
-
-.person p {
-  margin-top: 10px;
-  font-weight: bold;
-  color: #333;
-}
-
-/* Start screen button */
-.babu-btn {
-  border: none;
-  background: none;
-  cursor: pointer;
-  text-align: center;
-}
-
-.babu-btn img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
+.box{
+  margin: auto;
+  width: 300px;
+  display: flex-start;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  
+ 
 }
