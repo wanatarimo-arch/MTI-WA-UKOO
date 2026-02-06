@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  /* Background color */
+  background-color: #6eb397; /* Hii ni light blue, unaweza badilisha */
+
+  /* Center content vertically & horizontally */
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  min-height: 100vh;       /* full screen height */
+  font-family: Arial, sans-serif;
+}
+
+/* Container ya tree */
+.tree-container {
+  text-align: center;
+}
+
+/* Individual person */
+.person {
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.person img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;  /* circle images */
+  object-fit: cover;
+  border: 3px solid #333; /* optional border */
+}
+
+.person p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Start screen button */
+.babu-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.babu-btn img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
