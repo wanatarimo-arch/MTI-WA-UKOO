@@ -18,6 +18,7 @@ body{
   align-items: center;
   justify-content: center;
   padding-top: 5px;
+  text-align: center;
 }
 .BU1{
   size: 3000PX;
@@ -29,5 +30,9 @@ body{
 }
 .WAJENIFER{
   background-color: rgb(0, 255, 179);
+  
+}
+.HOME{
+  background-color: bisque;
   
 }
