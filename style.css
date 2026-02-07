@@ -31,14 +31,15 @@ body{
   justify-content: center;
   padding-top: 5px;
   text-align: center;
-  background-color: antiquewhite;
+ background-color: bisque;
+  border-radius: 2%;
 }
 .BU1{
   size: 3000PX;
   height: 200PX;
   color: rgb(18, 230, 159);
   border-radius: 20px;
-  padding: 70PX;
+  padding: 0PX;
   margin: 10PX;
 }
 .WAJENIFER{
@@ -48,4 +49,10 @@ body{
 .HOME{
   background-color: bisque;
   
+}
+.ndogo{
+  color: rgb(207, 9, 2);
+}
+.wicon{
+  height: 50px;
 }
